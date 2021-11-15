@@ -1,0 +1,18 @@
+# Número Maior e Menor
+# Lista (12,-2,4,8,29,45,78,36,-17,2,12,8,3,3,-52)
+
+lista_num = [12,-2,4,8,29,45,78,36,-17,2,12,8,3,3,-52]
+
+maior = lista_num[0]
+for lista in lista_num:
+    if lista > maior:
+        maior = lista
+
+print("O Maior Número É: ",maior)
+
+menor = lista_num[0]
+for lista in lista_num:
+    if lista < menor:
+        menor = lista
+
+print("O Menor Número É: ",menor)
